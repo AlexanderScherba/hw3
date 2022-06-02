@@ -19,6 +19,8 @@ git push -u origin Postman && git push -u origin Jmeter && git push -u origin Ch
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
 ```
 git checkout Bag_Reports
+```
+```
 echo -e "Title: GUI вылетает при переходе на вкладку о программе\nStep1: Открываем GUI через терминал или иконку\nStep2: Вызываем основное меню переводом курсора мыши в верхнюю часть окна GUI\nStep3: Выбираем пункт меню о программе\nActualResult: GUI закрывается без предупреждеия, процессы из памяти удаляются\nExpectedResult: Открывается окно о программе с корректным содержимым" > bug_report.txt
 ```
 
@@ -26,7 +28,9 @@ echo -e "Title: GUI вылетает при переходе на вкладку
 ```
 git add bug_report.txt
 ```
+```
 git commit -m "new bug report"
+```
 ```
 git push
 ```
@@ -44,6 +48,8 @@ git push
 7. В ветке CheckLists набросать структуру чек листа.
 ```
 git checkout CheckLists
+```
+```
 nano checklist.txt
 ```
 Вбиваем текст:
@@ -61,7 +67,11 @@ nano checklist.txt
 8. Запушить структуру на внешний репозиторий
 ```
 git add checklist.txt
+```
+```
 git commit -m "add checklist"
+```
+```
 git push
 ```
 
@@ -73,5 +83,7 @@ Confirm merge
 
 10. Синхронизировать Внешнюю и Локальную ветки Main
 ```git checkout main
+```
+```
 git pull
 ```
