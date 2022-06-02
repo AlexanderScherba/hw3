@@ -25,7 +25,9 @@ echo -e "Title: GUI вылетает при переходе на вкладку
 4. Запушить структуру багрепорта на внешний репозиторий
 ```
 git add bug_report.txt
+```
 git commit -m "new bug report"
+```
 git push
 ```
 
