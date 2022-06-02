@@ -77,6 +77,7 @@ git push
 ```
 
 **9. На внешнем репозитории сделать Pull Request ветки CheckLists в main**
+
 Зайти в ветку Checklist на репозитории, нажать Copmare & Pull request  
 Вписать коммент и нажать Create pull request  
 Merge pull request  
